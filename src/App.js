@@ -24,7 +24,11 @@ export default function App() {
           color: backColor,
         }}
       >
-        Generated Color: {backColor}
+        Generated Color:{' '}
+        <background color hex code>
+          {' '}
+        </background>{' '}
+        {backColor}
       </h2>
       <div
         style={{
@@ -34,7 +38,6 @@ export default function App() {
       >
         <br />
         <br />
-
         <br />
         <br />
         <br />
