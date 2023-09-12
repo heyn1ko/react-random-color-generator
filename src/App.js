@@ -11,41 +11,39 @@ export default function App() {
   return (
     <>
       <h1>
-        React<br></br>Random<br></br>Color<br></br>Generator
+        React
+        <br />
+        Random
+        <br />
+        Color
+        <br />
+        Generator
       </h1>
+      <h2
+        style={{
+          color: backColor,
+        }}
+      >
+        Generated Color: {backColor}
+      </h2>
       <div
         style={{
           backgroundColor: backColor,
           padding: '40px',
         }}
       >
-        <br></br>
-        <br></br>
-        <h2>Generated Color: {backColor}</h2>
-        <button onClick={generatedRandomColor}>Generate</button>
+        <br />
+        <br />
+
+        <br />
+        <br />
+        <br />
+        <br />
       </div>
+      <br />
+      <button className="button" onClick={generatedRandomColor}>
+        Generate
+      </button>
     </>
   );
 }
-
-// return (
-//   <>
-//     <div
-//       style={{
-//         backgroundColor: backColor,
-//         width: '1000px',
-//         height: '500px',
-//       }}
-//     >
-//       <br></br>
-//       <br></br>
-//       <div>Generated Color: {backColor}</div>
-//     </div>
-//     <button onClick={generatedRandomColor}>Generate</button>
-//   </>
-// );
-// }
-// onClick={() => {
-//   const newColor = randomColor{style};
-//   setRndmmColor(newColor);
-// }}
