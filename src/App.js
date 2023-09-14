@@ -19,30 +19,22 @@ export default function App() {
         <br />
         Generator
       </h1>
-      <h2
-        style={{
-          color: backColor,
-        }}
-      >
-        Generated Color:{' '}
-        <background color hex code>
-          {' '}
-        </background>{' '}
-        {backColor}
-      </h2>
       <div
         style={{
           backgroundColor: backColor,
           padding: '40px',
         }}
       >
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+        <h2
+          style={{
+            color: 'white',
+            padding: 'black',
+          }}
+        >
+          Generated Color:{backColor}
+        </h2>
       </div>
+      <br />
       <br />
       <button className="button" onClick={generatedRandomColor}>
         Generate
